@@ -1,0 +1,17 @@
+# Splunk_installations
+
+## To install splunk Master server follow the steps.
+
+wget -O splunk-6.2.3-264376-linux-2.6-x86_64.rpm 'http://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=Linux&version=6.2.3&product=splunk&filename=splunk-6.2.3-264376-linux-2.6-x86_64.rpm&wget=true'
+
+rpm -ivh splunk-6.2.3-264376-linux-2.6-x86_64.rpm
+cd /opt/splunk/bin/
+./splunk start
+
+
+## In splunk server to listen on particular port, create a port and and enable It to listen it.
+## You can have what ever available port you can.
+
+./splunk enable listen 9997
+
+
