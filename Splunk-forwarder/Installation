@@ -1,0 +1,17 @@
+## To Install splunk-forwarder in the forwarder or client machine
+
+wget http://download.splunk.com/products/splunk/releases/6.2.1/universalforwarder/linux/splunkforwarder-6.2.1-245427-Linux-x86_64.tgz
+
+# untar
+tar -zxvf splunkforwarder-6.2.1-245427-Linux-x86_64.tgz
+
+# move to /opt/splunkforwarder
+mv splunkforwarder /opt/
+
+# start
+/opt/splunkforwarder/bin/splunk start --accept-license
+
+# start on boot
+/opt/splunkforwarder/bin/splunk enable boot-start
+
+Now The Default Username:Password is "admin:changeme"
