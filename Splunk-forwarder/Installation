@@ -1,5 +1,8 @@
 ## To Install splunk-forwarder in the forwarder or client machine
-
+## Reference Website
+##############################
+https://gist.github.com/ifightcrime/6d8373c3904c510c8e44
+############################
 wget http://download.splunk.com/products/splunk/releases/6.2.1/universalforwarder/linux/splunkforwarder-6.2.1-245427-Linux-x86_64.tgz
 
 # untar
