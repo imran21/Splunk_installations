@@ -35,3 +35,5 @@ Now The Default Username:Password is "admin:changeme"
  ./splunk list monitor
  
  
+## To add a file which to be monitored
+./splunk add monitor <PATH OF THE FILE TO BE MONITORE. *.txt/*.log> -index main -sourcetype public_tweet
