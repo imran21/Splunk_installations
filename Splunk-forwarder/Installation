@@ -25,6 +25,13 @@ Now The Default Username:Password is "admin:changeme"
 ## The port number is the number anabled on master machine to capture data on that port.
  ./splunk add forward-server Master_IP:9997
  
+ ## To see list of forward-servers 
+ ./splunk list forward-server
+ 
  ## To add a log file which to be monitored is by following command
  ./splunk add monitor /var/log/syslog -index logs_vm1 -sourcetype logs_4m_syslogfile
+ 
+ ## To see which are the files monitored
+ ./splunk list monitor
+ 
  
